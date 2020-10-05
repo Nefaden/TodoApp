@@ -22,7 +22,6 @@ class ItemTableViewController: UITableViewController {
         if let savedItems = loadItems() {
           items += savedItems
         }
-        view.backgroundColor = .blue
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
