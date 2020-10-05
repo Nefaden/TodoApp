@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var saveButton: UIBarButtonItem!
+    @IBOutlet weak var scheduler: UIDatePicker!
     @IBAction func cancel(sender: UIBarButtonItem) {
        let isInAddMode = presentingViewController is UINavigationController
         
